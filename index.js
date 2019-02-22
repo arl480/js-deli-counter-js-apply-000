@@ -9,6 +9,22 @@ function takeANumber(katzDeliLine,name){
   
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function nowServing(katzDeliLine){
   if(katzDeliLine.length >= 1){
     var first = katzDeliLine[0];
@@ -29,7 +45,7 @@ function currentLine(katzDeliLine){
    var third = katzDeliLine[2];
     
     return ("The line is currently: 1. " + first +", 2. " + second + ", 3. "+ third);
-  }
+  } // index + 1
   
   else{
     return("The line is currently empty.");
