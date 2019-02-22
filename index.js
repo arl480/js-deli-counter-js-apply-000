@@ -9,19 +9,13 @@ function takeANumber(katzDeliLine,name){
   
 }
 
+  var line = 0;
 function takeANumber(katzDeliLine){
-  var line = 1;
   var line = line + 1;
   
-  return("Welcome, " + name +". You are number " + line + " in line.");
+  return("You are tickent #" + line);
   
 }
-
-
-
-
-
-
 
 
 
