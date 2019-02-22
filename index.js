@@ -11,6 +11,7 @@ function takeANumber(katzDeliLine,name){
 
   var line = 0;
 function takeANumber(katzDeliLine){
+  
   var line = line + 1;
   
   return("You are tickent #" + line);
